@@ -10,7 +10,7 @@ export default function AboutMe() {
 
                     <div className="w-full flex flex-col gap-unit-xs">
                         <p>
-                            I am a{" "}
+                            Hey, my name is Donatas and I am a{" "}
                             <YearsBetween
                                 def={18}
                                 date1={new Date()}
@@ -31,6 +31,10 @@ export default function AboutMe() {
                             years.
                         </p>
                     </div>
+
+                    <p>
+                        Current status: <i>student</i>
+                    </p>
                 </div>
             </CardBody>
         </Card>

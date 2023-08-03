@@ -6,7 +6,7 @@ import AboutMe from "./AboutMe";
 
 export default function Idx() {
     return (
-        <div className="container px-unit-xl xl:px-unit-6xl mx-auto py-unit-xl">
+        <div className="container px-unit-xl xl:px-unit-4xl mx-auto py-unit-xl">
             <BgImage>
                 <div className="flex flex-col gap-unit-3xl items-center">
                     <p className="text-6xl">Tronikel</p>

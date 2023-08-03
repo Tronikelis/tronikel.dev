@@ -1,7 +1,6 @@
 import { Avatar } from "@nextui-org/react";
 import React, { useEffect, useState } from "react";
 import BgImage from "~/components/BgImage";
-import YearsOld from "./YearsOld";
 import Socials from "./Socials";
 import AboutMe from "./AboutMe";
 
@@ -13,8 +12,12 @@ export default function Idx() {
                     <p className="text-6xl">Tronikel</p>
 
                     <div className="w-full flex-1 flex flex-row justify-evenly gap-unit-xl flex-wrap">
-                        <AboutMe />
-                        <Socials />
+                        <div>
+                            <AboutMe />
+                        </div>
+                        <div>
+                            <Socials />
+                        </div>
                     </div>
                 </div>
             </BgImage>

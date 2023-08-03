@@ -10,7 +10,7 @@ export default function AboutMe() {
 
                     <div className="w-full flex flex-col gap-unit-xs">
                         <p>
-                            I am{" "}
+                            I am a{" "}
                             <YearsBetween
                                 def={18}
                                 date1={new Date()}

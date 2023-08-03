@@ -26,7 +26,7 @@ export default async function onRenderHtml(pageContext: PageContextCustom) {
                     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
                 </head>
 
-                <body class="dark">
+                <body>
                     <div id="react-root">${dangerouslySkipEscape(
                         pageHtml
                     )}</div>

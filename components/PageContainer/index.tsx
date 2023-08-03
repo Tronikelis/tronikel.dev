@@ -8,7 +8,11 @@ type PageContainerProps = {
 export default function PageContainer({ children }: PageContainerProps) {
     return (
         <StrictMode>
-            <NextUIProvider>{children}</NextUIProvider>
+            <NextUIProvider>
+                <main className="dark text-foreground bg-background min-h-screen overflow-auto">
+                    {children}
+                </main>
+            </NextUIProvider>
         </StrictMode>
     );
 }

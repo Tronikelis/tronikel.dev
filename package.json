@@ -19,6 +19,7 @@
         "@types/react-dom": "18.2.7",
         "@vitejs/plugin-react": "4.0.4",
         "vite": "4.4.8",
-        "vite-plugin-ssr": "0.4.133"
+        "vite-plugin-ssr": "0.4.133",
+        "vite-tsconfig-paths": "4.2.0"
     }
 }

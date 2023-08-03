@@ -1,6 +1,6 @@
 import React from "react";
-import { Button } from "@nextui-org/react";
+import Idx from "../../routes/idx";
 
 export default function Page() {
-    return <Button>Hello</Button>;
+    return <Idx />;
 }

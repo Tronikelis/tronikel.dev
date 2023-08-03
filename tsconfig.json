@@ -1,11 +1,16 @@
 {
     "compilerOptions": {
+        "baseUrl": ".",
         "lib": ["DOM", "ESNext"],
         "module": "ESNext",
         "target": "ESNext",
         "moduleResolution": "Bundler",
         "esModuleInterop": true,
         "strict": true,
-        "jsx": "react-jsx"
+        "jsx": "react-jsx",
+
+        "paths": {
+            "~/*": ["./*"]
+        }
     }
 }

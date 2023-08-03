@@ -10,6 +10,7 @@ module.exports = {
         ),
         path.join(__dirname, "./pages/**/*.{js,ts,jsx,tsx}"),
         path.join(__dirname, "./components/**/*.{js,ts,jsx,tsx}"),
+        path.join(__dirname, "./routes/**/*.{js,ts,jsx,tsx}"),
     ],
     theme: {
         extend: {},

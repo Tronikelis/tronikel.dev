@@ -13,5 +13,5 @@ export default function YearsOld() {
         setYearsOld(years);
     }, []);
 
-    return <p>{Math.floor(yearsOld)}Y</p>;
+    return <p>{yearsOld.toFixed(1)}Y</p>;
 }

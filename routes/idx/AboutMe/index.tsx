@@ -5,10 +5,10 @@ export default function AboutMe() {
     return (
         <Card>
             <CardBody>
-                <div className="flex flex-col gap-0">
+                <div className="flex flex-col gap-unit-lg">
                     <p className="text-2xl">About me</p>
 
-                    <div className="w-full flex flex-col mt-unit-lg gap-unit-xs">
+                    <div className="w-full flex flex-col gap-unit-xs">
                         <p>
                             I am{" "}
                             <YearsBetween

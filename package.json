@@ -6,13 +6,19 @@
         "build": "vite build"
     },
     "dependencies": {
+        "@nextui-org/react": "2.0.1",
+        "autoprefixer": "10.4.14",
+        "framer-motion": "10.15.0",
         "react": "18.2.0",
-        "react-dom": "18.2.0"
+        "react-dom": "18.2.0",
+        "tailwindcss": "3.3.3"
     },
     "devDependencies": {
+        "@types/node": "20.4.6",
         "@types/react": "18.2.18",
         "@types/react-dom": "18.2.7",
         "@vitejs/plugin-react": "4.0.4",
-        "vite": "4.4.8"
+        "vite": "4.4.8",
+        "vite-plugin-ssr": "0.4.133"
     }
 }

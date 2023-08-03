@@ -7,7 +7,5 @@
         "esModuleInterop": true,
         "strict": true,
         "jsx": "react-jsx"
-    },
-
-    "include": ["./src"]
+    }
 }

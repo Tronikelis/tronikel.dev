@@ -3,7 +3,9 @@
     "type": "module",
     "scripts": {
         "dev": "vite dev",
-        "build": "vite build"
+        "build": "vite build",
+        "lint": "eslint -c .eslintrc.cjs .",
+        "prettier": "prettier . --write"
     },
     "dependencies": {
         "@nextui-org/react": "2.0.1",

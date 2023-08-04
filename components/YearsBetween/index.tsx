@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
+
 import yearsBetweenDates from "~/utils/yearsBetweenDates";
 
 type YearsBetweenProps = {
@@ -12,7 +13,7 @@ export default function YearsBetween({ def, date1, date2 }: YearsBetweenProps) {
 
     useEffect(() => {
         setYears(yearsBetweenDates(date1, date2));
-    }, []);
+    }, [date1, date2]);
 
     return <span>{years.toFixed(1)}</span>;
 }

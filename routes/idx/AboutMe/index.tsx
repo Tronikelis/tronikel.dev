@@ -1,4 +1,6 @@
 import { Card, CardBody } from "@nextui-org/react";
+import React from "react";
+
 import YearsBetween from "~/components/YearsBetween";
 
 export default function AboutMe() {

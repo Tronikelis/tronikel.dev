@@ -1,8 +1,9 @@
-import { Avatar } from "@nextui-org/react";
-import React, { useEffect, useState } from "react";
+import React from "react";
+
 import BgImage from "~/components/BgImage";
-import Socials from "./Socials";
+
 import AboutMe from "./AboutMe";
+import Socials from "./Socials";
 
 export default function Idx() {
     return (

@@ -18,9 +18,7 @@ export default function BgImage({ children }: BgImageProps) {
                 src={transparentProfileSrc}
             />
 
-            <div className="z-50 absolute top-0 left-0 w-full h-full">
-                {children}
-            </div>
+            <div className="z-50 absolute top-0 left-0 w-full h-full">{children}</div>
         </div>
     );
 }

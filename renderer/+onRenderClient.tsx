@@ -1,7 +1,9 @@
 import React from "react";
 import { hydrateRoot } from "react-dom/client";
-import { PageContextCustom } from "./types";
+
 import PageContainer from "../components/PageContainer";
+
+import { PageContextCustom } from "./types";
 
 import "./css/main.css";
 

@@ -7,9 +7,9 @@ import Socials from "./Socials";
 
 export default function Idx() {
     return (
-        <div className="container px-unit-xl xl:px-unit-4xl mx-auto py-unit-xl">
+        <div className="container px-unit-xl xl:px-unit-4xl mx-auto">
             <BgImage>
-                <div className="flex flex-col gap-unit-3xl items-center">
+                <div className="flex flex-col gap-unit-3xl items-center py-unit-xl">
                     <p className="text-6xl">Tronikel</p>
 
                     <div className="w-full flex-1 flex flex-row justify-evenly gap-unit-xl flex-wrap">

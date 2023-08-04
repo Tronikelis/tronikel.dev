@@ -9,12 +9,12 @@ type BgImageProps = {
 
 export default function BgImage({ children }: BgImageProps) {
     return (
-        <div className="relative w-full h-full">
+        <div className="relative w-full h-screen">
             <img
                 style={{
                     filter: "invert(18%) sepia(0%) saturate(0%) hue-rotate(86deg) brightness(99%) contrast(89%)",
                 }}
-                className="object-cover w-full h-auto top-0 left-0 opacity-20 absolute z-10"
+                className="object-cover w-full h-full top-0 left-0 opacity-20 absolute z-10"
                 src={transparentProfileSrc}
             />
 

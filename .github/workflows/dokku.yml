@@ -20,9 +20,24 @@ jobs:
               with:
                   fetch-depth: 0
 
-            - name: Deploy to dokku
-              uses: dokku/github-action@v1.4.0
+            - name: Dependencies
+              run: npm ci
+
+            - name: Build project
+              run: |
+                  npm run build
+                  sed -i '/dist\//d' .gitignore
+
+            - name: Save built files
+              uses: EndBug/add-and-commit@v9
               with:
-                  git_push_flags: "--force"
-                  git_remote_url: "ssh://dokku@${{ secrets.HOST }}:22/me"
-                  ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+                  push: false
+
+            - name: Deploy to dokku
+              uses: vitalyliber/dokku-github-action@v7.1
+              env:
+                  PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+                  FORCE_DEPLOY: true
+                  BRANCH: master
+                  HOST: ${{ secrets.HOST }}
+                  PROJECT: me

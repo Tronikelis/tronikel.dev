@@ -20,19 +20,6 @@ jobs:
               with:
                   fetch-depth: 0
 
-            - name: Dependencies
-              run: npm ci
-
-            - name: Build project
-              run: |
-                  npm run build
-                  sed -i '/dist\//d' .gitignore
-
-            - name: Save built files
-              uses: EndBug/add-and-commit@v9
-              with:
-                  push: false
-
             - name: Deploy to dokku
               uses: dokku/github-action@v1.4.0
               with:

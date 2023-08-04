@@ -1,0 +1,23 @@
+{
+  "\u0000virtual:vite-plugin-ssr:importPageCode:client:/pages/idx.css": {
+    "file": "assets/static/idx.47d85135.css",
+    "src": "\u0000virtual:vite-plugin-ssr:importPageCode:client:/pages/idx.css"
+  },
+  "node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
+    "dynamicImports": [
+      "virtual:vite-plugin-ssr:importPageCode:client:/pages/idx"
+    ],
+    "file": "assets/entries/entry-server-routing.c0a769f7.js",
+    "isEntry": true,
+    "src": "node_modules/vite-plugin-ssr/dist/esm/client/entry.js"
+  },
+  "virtual:vite-plugin-ssr:importPageCode:client:/pages/idx": {
+    "css": [
+      "assets/static/idx.47d85135.css"
+    ],
+    "file": "assets/entries/pages_idx.879be354.js",
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "virtual:vite-plugin-ssr:importPageCode:client:/pages/idx"
+  }
+}

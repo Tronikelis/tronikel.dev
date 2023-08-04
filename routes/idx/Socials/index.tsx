@@ -7,6 +7,7 @@ import {
     IconMail,
 } from "@tabler/icons-react";
 import React from "react";
+
 import SocialSite from "~/components/SocialSite";
 
 export default function Socials() {
@@ -21,11 +22,7 @@ export default function Socials() {
                         href="https://github.com/Tronikelis"
                     />
 
-                    <SocialSite
-                        icon={<IconBrandDiscord />}
-                        href="tronikel"
-                        link={false}
-                    />
+                    <SocialSite icon={<IconBrandDiscord />} href="tronikel" link={false} />
 
                     <SocialSite
                         icon={<IconBrandLinkedin />}
@@ -37,10 +34,7 @@ export default function Socials() {
                         href="https://steamcommunity.com/id/tronikel"
                     />
 
-                    <SocialSite
-                        icon={<IconMail />}
-                        href="mailto:contactdonatas@gmail.com"
-                    />
+                    <SocialSite icon={<IconMail />} href="mailto:contactdonatas@gmail.com" />
                 </div>
             </CardBody>
         </Card>

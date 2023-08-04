@@ -19,6 +19,9 @@
         "@types/react": "18.2.18",
         "@types/react-dom": "18.2.7",
         "@vitejs/plugin-react": "4.0.4",
+        "eslint": "8.46.0",
+        "eslint-config-tronikelis": "1.0.1",
+        "prettier": "3.0.1",
         "vite": "4.4.8",
         "vite-plugin-ssr": "0.4.133",
         "vite-tsconfig-paths": "4.2.0"

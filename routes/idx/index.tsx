@@ -3,6 +3,7 @@ import React from "react";
 import BgImage from "~/components/BgImage";
 
 import AboutMe from "./AboutMe";
+import Foss from "./Foss";
 import Socials from "./Socials";
 
 export default function Idx() {
@@ -15,12 +16,15 @@ export default function Idx() {
                         <p className="self-end text-zinc-700">.dev</p>
                     </div>
 
-                    <div className="w-full flex-1 flex flex-row justify-evenly gap-unit-xl flex-wrap">
+                    <div className="w-full flex flex-row justify-evenly gap-unit-xl flex-wrap">
                         <div>
                             <AboutMe />
                         </div>
                         <div>
                             <Socials />
+                        </div>
+                        <div>
+                            <Foss />
                         </div>
                     </div>
                 </div>

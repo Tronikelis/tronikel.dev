@@ -1,21 +1,27 @@
 import { Card, CardBody } from "@nextui-org/react";
 import React, { ReactNode } from "react";
+import { tv } from "tailwind-variants";
 
 import TiltHover from "../TiltHover";
 
 type InfoCardProps = {
     children: ReactNode;
     title: string;
+    className?: string;
 };
 
-export default function InfoCard({ children, title }: InfoCardProps) {
+const infoCard = tv({
+    base: "w-full flex flex-col gap-unit-xs",
+});
+
+export default function InfoCard({ children, title, className }: InfoCardProps) {
     return (
         <TiltHover>
             <Card>
                 <CardBody>
                     <div className="flex flex-col gap-unit-md">
                         <p className="text-2xl">{title}</p>
-                        <div className="w-full flex flex-col gap-unit-xs">{children}</div>
+                        <div className={infoCard({ className })}>{children}</div>
                     </div>
                 </CardBody>
             </Card>

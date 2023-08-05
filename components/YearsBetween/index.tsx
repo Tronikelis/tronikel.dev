@@ -15,5 +15,5 @@ export default function YearsBetween({ def, date1, date2 }: YearsBetweenProps) {
         setYears(yearsBetweenDates(date1, date2));
     }, [date1, date2]);
 
-    return <span>{years.toFixed(1)}</span>;
+    return <span>{Math.floor(years)}</span>;
 }

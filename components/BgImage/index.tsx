@@ -14,7 +14,7 @@ export default function BgImage({ children }: BgImageProps) {
                 style={{
                     filter: "invert(18%) sepia(0%) saturate(0%) hue-rotate(86deg) brightness(99%) contrast(89%)",
                 }}
-                className="object-cover w-full h-full top-0 left-0 opacity-20 absolute z-10"
+                className="object-cover w-full h-full top-0 left-0 opacity-40 absolute z-10"
                 src={transparentProfileSrc}
             />
 

@@ -10,7 +10,10 @@ export default function Idx() {
         <div className="container px-unit-xl xl:px-unit-4xl mx-auto">
             <BgImage>
                 <div className="flex flex-col gap-unit-3xl items-center py-unit-xl">
-                    <p className="text-6xl">Tronikel</p>
+                    <div className="flex flex-row flex-nowrap gap-0">
+                        <p className="text-6xl">Tronikel</p>
+                        <p className="self-end text-zinc-700">.dev</p>
+                    </div>
 
                     <div className="w-full flex-1 flex flex-row justify-evenly gap-unit-xl flex-wrap">
                         <div>

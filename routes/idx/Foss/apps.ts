@@ -76,4 +76,8 @@ export default [
         href: "https://github.com/rustdesk/rustdesk",
         icon: "https://cdn.discordapp.com/attachments/1136647387385966722/1137298788239822929/Bp8aNCT.png",
     },
+    {
+        href: "https://github.com/Vendicated/Vencord",
+        icon: "https://cdn.discordapp.com/attachments/1136647387385966722/1137320531285245962/rCWFqlO.png",
+    },
 ] satisfies App[];

@@ -12,6 +12,10 @@ export default function YearsBetween({ def, date1, date2 }: YearsBetweenProps) {
     const [years, setYears] = useState(def);
 
     useEffect(() => {
+        setYears(def);
+    }, [def]);
+
+    useEffect(() => {
         setYears(yearsBetweenDates(date1, date2));
     }, [date1, date2]);
 

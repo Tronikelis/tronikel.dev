@@ -8,7 +8,11 @@ export default function AboutMe() {
         <InfoCard title="About me">
             <p>
                 Hey, my name is Donatas and I am a{" "}
-                <YearsBetween def={18} date1={new Date()} date2={new Date(2004, 10, 23)} />{" "}
+                <YearsBetween
+                    def={18}
+                    date1={new Date()}
+                    date2={new Date("2004-10-23T00:00:00.000Z")}
+                />{" "}
                 year old guy from Lithuania 🇱🇹.
             </p>
 
@@ -16,7 +20,12 @@ export default function AboutMe() {
 
             <p>
                 Approximately been coding for{" "}
-                <YearsBetween def={3} date1={new Date()} date2={new Date(2019, 9, 1)} /> years.
+                <YearsBetween
+                    def={3}
+                    date1={new Date()}
+                    date2={new Date("2019-09-01T00:00:00.000Z")}
+                />{" "}
+                years.
             </p>
 
             <p>I LOVE open source software.</p>

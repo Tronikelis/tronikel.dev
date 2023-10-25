@@ -5,8 +5,8 @@ type App = {
 
 export default [
     {
-        href: "https://github.com/saikou-app/saikou",
-        icon: "https://cdn.discordapp.com/attachments/1136647387385966722/1137290116759568404/4x8ZpaU.png",
+        href: "https://github.com/rebelonion/Dantotsu",
+        icon: "https://cdn.discordapp.com/attachments/1136647387385966722/1166644311727804486/BUIDJ7K.webp",
     },
     {
         href: "https://github.com/bitwarden",

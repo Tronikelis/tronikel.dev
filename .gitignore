@@ -1,2 +1,6 @@
-dist/
-node_modules/
+/public/
+/resources/_gen/
+
+hugo.exe
+hugo.linux
+hugo.darwin

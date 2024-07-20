@@ -1,0 +1,40 @@
+baseURL = 'https://tronikel.dev'
+languageCode = 'en-us'
+title = 'Tronikel'
+theme = "nightfall"
+
+[[menu.header]]
+name = "man"
+url = "/man"
+
+
+[params]
+user = "root"
+hostname = "tronikel.dev"
+
+[params.author]
+name = "Tronikel"
+email = "contactdonatas@gmail.com"
+
+[[params.social]]
+name = "email"
+url = "mailto:contactdonatas@gmail.com"
+icon = "fa-solid fa-envelope"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/Tronikelis"
+icon = "fa-brands fa-github"
+target = "_blank"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/tronikel"
+icon = "fa-brands fa-linkedin"
+target = "_blank"
+
+[[params.social]]
+name = "discord"
+url = "https://discord.com/tronikel"
+icon = "fa-brands fa-discord"
+target = "_blank"

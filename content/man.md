@@ -15,4 +15,13 @@ DESCRIPTION
 
 STATUS
     idk, probably configuring neovim
+
+INTERESTS
+    - unix
+    - neovim
+    - foss
+    - rust
+    - go
+    - lua
+    - webdev
 ```

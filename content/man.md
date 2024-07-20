@@ -5,10 +5,10 @@ draft = false
 
 ```
 NAME
-    tronikel - Information about Tronikel
+    tronikel - information about Tronikel
 
 SYNOPSIS
-    about
+    tronikel [HELP] [INFO]
 
 DESCRIPTION
     hi, my name is Donatas and I like programming in neovim btw
